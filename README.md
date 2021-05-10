@@ -84,8 +84,11 @@ Now, we can run the job template. Check the Google Cloud Platform console to see
 ![img](https://github.com/alioualarbi/gcp-wih-ansible/blob/main/task%20output.png)
 
 You can also use the Google Cloud Platform console to verify the resources. In Figure 10, you can see the VM disk, disk-instance, was created with a size of 50 GB.
+
 ![img](https://github.com/alioualarbi/gcp-wih-ansible/blob/main/disk.png)
+
 the below screenshotshows that the VPC network, network-instance, was created on subnet 10.240.0.0/16.
+
 ![img](https://github.com/alioualarbi/gcp-wih-ansible/blob/main/network.png)
 
 # Create a dynamic inventory for GCP instances
@@ -98,4 +101,5 @@ To create a new inventory, choose Google Compute Engine as the source, then you 
 
 Next, use the Inventory Sync button to synchronize the newly created instance rhel8 in the US Central (A) region.
 Once synced, check the new hosts in the inventory
+
 ![img](https://github.com/alioualarbi/gcp-wih-ansible/blob/main/ansible%20tower%20sync.png)
