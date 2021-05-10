@@ -81,12 +81,12 @@ Next, we want to create a new job template to execute the playbook in Ansible To
 ## Run the job template
 Now, we can run the job template. Check the Google Cloud Platform console to see the new resources being created as each individual task is executed. From the job template output shown in Figure 9, you can see that the new resources were created.
 
-[[/images/task output.png]]
+![img](https://github.com/alioualarbi/gcp-wih-ansible/blob/main/task%20output.png)
 
 You can also use the Google Cloud Platform console to verify the resources. In Figure 10, you can see the VM disk, disk-instance, was created with a size of 50 GB.
-[[/images/disk.png]]
+![img](https://github.com/alioualarbi/gcp-wih-ansible/blob/main/disk.png)
 the below screenshotshows that the VPC network, network-instance, was created on subnet 10.240.0.0/16.
-[[/images/network.png]]
+![img](https://github.com/alioualarbi/gcp-wih-ansible/blob/main/network.png)
 
 # Create a dynamic inventory for GCP instances
 ## Connect your GCP service account to Ansible Tower
@@ -94,8 +94,8 @@ the below screenshotshows that the VPC network, network-instance, was created on
 Ansible Tower lets you periodically sync with the Google Cloud API to find realtime instance counts and details for resources hosted on Google Cloud Platform.
 To create a new inventory, choose Google Compute Engine as the source, then you can select the Google Cloud Platform credential (Service account).
 
-[[/images/ansible tower dashboard.png]]
+![img](https://github.com/alioualarbi/gcp-wih-ansible/blob/main/ansible%20tower%20dashboard.png)
 
 Next, use the Inventory Sync button to synchronize the newly created instance rhel8 in the US Central (A) region.
 Once synced, check the new hosts in the inventory
-[[/images/ansible tower sync.png]]
+![img](https://github.com/alioualarbi/gcp-wih-ansible/blob/main/ansible%20tower%20sync.png)
