@@ -83,7 +83,7 @@ Now, we can run the job template. Check the Google Cloud Platform console to see
 
 ![img](https://github.com/alioualarbi/gcp-wih-ansible/blob/main/task%20output.png)
 
-You can also use the Google Cloud Platform console to verify the resources. In Figure 10, you can see the VM disk, disk-instance, was created with a size of 50 GB.
+You can also use the Google Cloud Platform console to verify the resources. You can see the VM disk, disk-instance, was created with a size of 50 GB.
 
 ![img](https://github.com/alioualarbi/gcp-wih-ansible/blob/main/disk.png)
 
