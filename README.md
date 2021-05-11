@@ -79,7 +79,7 @@ During execution, Ansible Tower will use the GCP_AUTH_KIND environment variable 
 Next, we want to create a new job template to execute the playbook in Ansible Tower. Before we can do that, we need to create an inventory and a project referencing the playbook. 
 
 ## Run the job template
-Now, we can run the job template. Check the Google Cloud Platform console to see the new resources being created as each individual task is executed. From the job template output shown in Figure 9, you can see that the new resources were created.
+Now, we can run the job template. Check the Google Cloud Platform console to see the new resources being created as each individual task is executed. From the job template output, you can see that the new resources were created.
 
 ![img](https://github.com/alioualarbi/gcp-wih-ansible/blob/main/task%20output.png)
 
