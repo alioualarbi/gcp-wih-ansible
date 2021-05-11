@@ -7,7 +7,7 @@ I’m showing the Ansible playbook in Figure 7 as a screenshot to preserve the i
 - name: Create a GCP instance
   hosts: localhost
   vars:
-     gcp_project: ansible-tower-sreejith
+     gcp_project: ansible-tower-test
      gcp_cred_kind: serviceaccount
   tasks:
     - name: create a disk mapped from RHEL8 image
